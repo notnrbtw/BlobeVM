@@ -32,7 +32,6 @@ if jq ".enablekvm" "$json_file" | grep -q true; then
         -e PUID=1000 \
         -e PGID=1000 \
         --device=/dev/kvm:/dev/kvm \
-        --device=/dev/gpu:/dev/gpu \
         --device=/dev/dri:/dev/dri \
         --security-opt seccomp=unconfined \
         -e TZ=Etc/UTC \
