@@ -1,14 +1,17 @@
 from textual.app import App, ComposeResult
 from textual.screen import Screen
 from textual.containers import Horizontal, Vertical
-from textual.widgets import Footer, Header, SelectionList, Label, Button, Markdown, Select, Static, Switch
+from textual.widgets import Footer, Header, SelectionList, Label, Button, Markdown, Select, Static
 import json
 
 ### JSON Exporter ###
 
 def savejson(data):
-    with open('options.json', 'w') as f:
-        json.dump(data, f, indent=4)
+    try:
+        with open('options.json', 'w') as f:
+            json.dump(data, f, indent=4)
+    except Exception as e:
+        print(f"Error saving JSON: {e}")
 
 #####################
 
@@ -47,7 +50,7 @@ class InstallScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield Markdown(InstallHead)
-        
+
         yield Vertical(
             Label("Default Apps (you should keep them) and includes chat, games, browser, zip extractors"),
             SelectionList[int](
@@ -60,7 +63,7 @@ class InstallScreen(Screen):
                 id="defaultapps"
             ),
         )
-        
+
         yield Vertical(
             Label("Programming & Coding"),
             SelectionList[int](
@@ -70,7 +73,7 @@ class InstallScreen(Screen):
                 id="programming"
             ),
         )
-        
+
         yield Vertical(
             Label("Apps & Virtual Machines & Media Players & Office & Games & Installers"),
             SelectionList[int](
@@ -82,14 +85,14 @@ class InstallScreen(Screen):
                 id="apps"
             ),
         )
-        
+
         yield Vertical(
             Horizontal(
                 Label("\nDesktop Environment:"),
                 Select(id="de", value="KDE Plasma 6 (Heavy)", options=[(line, line) for line in LINES]),
             ),
         )
-        
+
         yield Horizontal(
             Button.error("Back", id="back"),
             Button.warning("Install NOW", id="in"),
