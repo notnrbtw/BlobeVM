@@ -35,7 +35,7 @@ if jq ".enablekvm" "$json_file" | grep -q true; then
         --device=/dev/gpu:/dev/gpu \
         --device=/dev/dri:/dev/dri \
         --security-opt seccomp=unconfined \
-        -e TZ=Europe/Stockholm \
+        -e TZ=Etc/UTC \
         -e SUBFOLDER=/ \
         -p 3000:3000 \
         --shm-size="2gb" \
@@ -50,7 +50,7 @@ else
         --device=/dev/gpu:/dev/gpu \
         --device=/dev/dri:/dev/dri \
         --security-opt seccomp=unconfined \
-        -e TZ=Europe/Stockholm \
+        -e TZ=Etc/UTC \
         -e SUBFOLDER=/ \
         -p 3000:3000 \
         --shm-size="2gb" \
