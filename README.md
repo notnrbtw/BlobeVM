@@ -36,6 +36,8 @@ Once your codespace is ready, follow these instructions in your codespace termin
 
 1. Open the terminal in your GitHub Codespace.
 2. Run the following commands:
+
+   ```bash
    curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
    chmod +x install.sh
    ./install.sh
