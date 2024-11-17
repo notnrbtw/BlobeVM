@@ -86,15 +86,7 @@ if jq ".DE" "/options.json" | grep -q "GNOME 42 (Very Heavy)"; then
     echo "export XDG_CURRENT_DESKTOP=GNOME" >> ~/.bashrc
     echo "export XDG_CURRENT_DESKTOP=GNOME" >> /config/.bashrc
 
-    apt-get remove -y \
-        gnome-power-manager \
-        gnome-bluetooth \
-        gnome-software \
-        gpaste \
-        hijra-applet gnome-shell-extension-hijra \
-        mailnag gnome-shell-mailnag \
-        gnome-shell-pomodoro gnome-shell-pomodoro-data
-    
+
     cp /startwm-gnome.sh /defaults/startwm.sh
 fi
 if jq ".DE" "/options.json" | grep -q "Cinnamon"; then
