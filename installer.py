@@ -29,7 +29,7 @@ InstallHead="""
 # BlobeVM Installer
 """     
 
-LINES = ["KDE Plasma (Heavy)", "XFCE4 (Lightweight)", "I3 (Very Lightweight)", "GNOME 42 (Very Heavy)", "Cinnamon", "LXQT"]
+LINES = ["KDE Plasma 6 (Heavy)", "XFCE 4.18 (Lightweight)", "I3 (Very Lightweight)", "GNOME 46 (Very Heavy)", "Cinnamon", "LXQT"]
 
 class InstallScreen(Screen):
     CSS_PATH = "installer.tcss"
