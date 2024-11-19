@@ -38,7 +38,6 @@ Once your codespace is ready, follow these instructions in your codespace termin
 2. Run the following commands:
 
    ```bash
-   git clone https://github.com/coder0-code/BlobeVM.git
-   cd BlobeVM
+   curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
    chmod +x install.sh
    ./install.sh
