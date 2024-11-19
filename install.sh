@@ -1,5 +1,3 @@
-cd BlobeVM
-
 # Install Python dependency
 pip install textual
 
