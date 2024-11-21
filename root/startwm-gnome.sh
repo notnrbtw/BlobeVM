@@ -10,4 +10,4 @@ sudo if ! mountpoint -q /run; then
  sudo mount -t tmpfs none /run
 fi
 sudo service dbus start
-/usr/bin/gnome-shell --x11 -r > /dev/null 2>&1
+/usr/bin/dbus-launch /usr/bin/gnome-shell --x11 -r > /dev/null 2>&1
