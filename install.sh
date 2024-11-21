@@ -33,6 +33,8 @@ if jq ".enablekvm" "$json_file" | grep -q true; then
         -e PGID=1000 \
         --device=/dev/kvm:/dev/kvm \
         --device=/dev/dri:/dev/dri \
+        --device=/dev/vga_arbiter:/dev/vga_arbiter \
+        --privileged \
         --security-opt seccomp=unconfined \
         -e TZ=Etc/UTC \
         -e SUBFOLDER=/ \
@@ -47,6 +49,8 @@ else
         -e PGID=1000 \
         --device=/dev/kvm:/dev/kvm \
         --device=/dev/dri:/dev/dri \
+        --device=/dev/vga_arbiter:/dev/vga_arbiter \
+        --privileged \
         --security-opt seccomp=unconfined \
         -e TZ=Etc/UTC \
         -e SUBFOLDER=/ \
