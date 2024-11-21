@@ -38,6 +38,6 @@ Once your codespace is ready, follow these instructions in your codespace termin
 2. Run the following commands:
 
    ```bash
-   curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
+   curl -O https://raw.githubusercontent.com/lolpc700/BlobeVM/main/install.sh
    chmod +x install.sh
    ./install.sh
