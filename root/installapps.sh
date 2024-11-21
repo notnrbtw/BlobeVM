@@ -39,6 +39,10 @@ if jq ".programming | contains([2])" "$json_file" | grep -q true; then
     chmod +x /installable-apps/vscodium.sh
     /installable-apps/vscodium.sh
 fi
+if jq ".programming | contains([3])" "$json_file" | grep -q true; then
+    chmod +x /installable-apps/zed.sh
+    /installable-apps/zed.sh
+fi
 
 if jq ".apps | contains([0])" "$json_file" | grep -q true; then
     chmod +x /installable-apps/vlc.sh
