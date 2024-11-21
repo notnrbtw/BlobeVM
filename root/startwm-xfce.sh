@@ -3,4 +3,4 @@
 setterm blank 0
 setterm powerdown 0
 
-/usr/bin/xfce4-session > /dev/null 2>&1
+dbus-launch /usr/bin/xfce4-session > /dev/null 2>&1
