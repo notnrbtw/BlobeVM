@@ -8,4 +8,4 @@ fi
 sudo if ! mountpoint -q /run; then
  sudo mount -t tmpfs none /run
 fi
-dbus-launch /usr/bin/xfce4-session > /dev/null 2>&1
+/usr/bin/dbus-launch /usr/bin/xfce4-session > /dev/null 2>&1
