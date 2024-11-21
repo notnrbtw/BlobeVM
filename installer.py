@@ -56,6 +56,7 @@ class InstallScreen(Screen):
             ("OpenJDK 8 (jre)", 0),
             ("OpenJDK 17 (jre)", 1),
             ("VSCodium", 2),
+            ("Zed", 3),
             id="programming"
         ),),
         Vertical (
