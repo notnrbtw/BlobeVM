@@ -1,4 +1,4 @@
-git clone https://github.com/lolpc700/BlobeVM
+git clone https://github.com/coder0-code/BlobeVM
 cd BlobeVM
 
 # Install Python dependency
