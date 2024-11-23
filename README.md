@@ -65,4 +65,12 @@ Once your codespace or Gitpod workspace are ready, follow these instructions in 
    curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
    chmod +x install.sh
    ./install.sh
+### Step 4 or Step 5
+1. fix shutdown
+2. go to console on terminal page using inspect type function ClickConnect(){
+{
+console.log(“Working”);
+document.querySelector(“colab-connect-button”).shadowRoot.getElementById(‘connect’).click();
+}
+setInterval(ClickConnect,60000)
 Enjoy BlobeVM! Feel free to customize it or fix 
