@@ -65,3 +65,4 @@ Once your codespace or Gitpod workspace are ready, follow these instructions in 
    curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
    chmod +x install.sh
    ./install.sh
+Enjoy BlobeVM! Feel free to customize it or fix 
