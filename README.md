@@ -19,7 +19,7 @@ Follow these simple steps to install and set up BlobeVM in a GitHub Codespace:
 
 If you don't already have a GitHub account, you'll need to create one. Here's how:
 
-1. Go to [GitHub's sign-up page].
+1. Go to [GitHub's sign-up page](https://www.github.com/join)
 2. Enter your details (email, username, and password) and click **"Sign up for GitHub"**.
 3. Follow the prompts to complete the account creation process.
 4. Set max time on GitHub to 240 mins
@@ -27,7 +27,7 @@ If you don't already have a GitHub account, you'll need to create one. Here's ho
 
 ### Step 2: Create a New Codespace
 
-1. Visit [GitHub Codespaces].
+1. Visit [GitHub Codespaces](https://www.github.com/codespaces).
 2. Log in with your newly created GitHub account (if you haven’t already).
 3. Click on **"Create New Codespace"** and select the 4 core machine type.
 4. Disable Automatic Deletion
@@ -36,7 +36,7 @@ If you don't already have a GitHub account, you'll need to create one. Here's ho
 
 It is recommended to create a Gitpod account for a better development experience:
 
-1. Go to [Gitpod].
+1. Go to [Gitpod](https://www.gitpod.io/login).
 2. Sign up using your GitHub account.
 
 ### GitPod Step 2: Create a New Gitpod Workspace
