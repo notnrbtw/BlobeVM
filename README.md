@@ -1,43 +1,81 @@
-# BlobeVM (Modified DesktopOnCodespaces)
+#################################################################
+# BlobeVM Installation Guide                                    #
+# Powered by DesktopOnCodespaces                                #
+#                                                               #
+# Features:                                                     #
+# - Browser-based virtual machine                               #
+# - Windows app support                                         #
+# - Audio functionality                                         #
+# - Low-latency gaming                                          #
+# - Bypasses restricted networks                                #
+# - Fast, up-to-date environment                                #
+#################################################################
 
-BlobeVM is a Virtual Machine powered by DesktopOnCodespaces, designed to run entirely in a web browser. It comes with excellent features, including Windows app support, audio functionality, and the ability to bypass school networks.
+# ----------------------------- #
+# STEP 1: ACCOUNT SETUP         #
+# ----------------------------- #
 
-## Features:
-- **Runs in a web browser**
-- **Unblocked access to resources**
-- **Windows app support**
-- **Audio support**
-- **Low-latency game support**
-- **Bypasses school networks**
-- **Fast and up-to-date**
+# OPTION A: GitHub Account
+# If you don’t have a GitHub account, create one:
+# 1. Visit https://github.com/join
+# 2. Fill in your email, username, and password.
+# 3. Complete the sign-up process and verify your email.
 
-## Installation Instructions
+# OPTION B: Gitpod Account (Recommended)
+# 1. Visit https://gitpod.io/login
+# 2. Log in using your GitHub account or create a new account.
+# 3. To link your LinkedIn profile:
+#    - Go to Settings > Integrations > LinkedIn.
+#    - Authorize Gitpod to connect to your LinkedIn account.
 
-Follow these simple steps to install and set up BlobeVM in a GitHub Codespace:
+# ----------------------------- #
+# STEP 2: CREATE WORKSPACE      #
+# ----------------------------- #
 
-### Step 1: Create a GitHub Account (If You Don't Have One)
+# OPTION A: Gitpod Workspace
+# 1. Log into Gitpod.
+# 2. Create a new workspace using the BlobeVM repository URL:
+#    https://github.com/coder0-code/BlobeVM
+# 3. Click "Create Workspace" and wait for it to initialize.
 
-If you don't already have a GitHub account, you'll need to create one. Here's how:
+# OPTION B: GitHub Codespaces
+# 1. Log into https://github.com/codespaces/
+# 2. Select the BlobeVM repository or choose a blank template.
+# 3. Click "Create New Codespace" and wait for it to load.
 
-1. Go to [GitHub's sign-up page](https://github.com/join).
-2. Enter your details (email, username, and password) and click **"Sign up for GitHub"**.
-3. Follow the prompts to complete the account creation process.
-4. Once your account is set up, return to this page to continue the installation.
+# ----------------------------- #
+# STEP 3: INSTALL BLOBEVM       #
+# ----------------------------- #
 
-### Step 2: Create a New Codespace
+# Open the terminal in your workspace or codespace and execute:
 
-1. Visit [GitHub Codespaces](https://github.com/codespaces/).
-2. Log in with your newly created GitHub account (if you haven’t already).
-3. Click on **"Create New Codespace"** and select the **"Blank"** template.
+# Download the BlobeVM installation script
+curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
 
-### Step 3: Set Up BlobeVM
+# Make the installation script executable
+chmod +x install.sh
 
-Once your codespace is ready, follow these instructions in your codespace terminal:
+# Run the installation script
+./install.sh
 
-1. Open the terminal in your GitHub Codespace.
-2. Run the following commands:
+# ----------------------------- #
+# STEP 4: FINALIZE SETUP        #
+# ----------------------------- #
 
-   ```bash
-   curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
-   chmod +x install.sh
-   ./install.sh
+# 1. Follow the on-screen prompts to complete the installation.
+# 2. Once finished, BlobeVM will be ready to use directly in your browser.
+# 3. Enjoy Windows app support, audio, gaming, and unrestricted access!
+
+# ----------------------------- #
+# OPTIONAL CONFIGURATION        #
+# ----------------------------- #
+
+# Customize your BlobeVM for gaming or productivity:
+# - Enable low-latency settings for smoother gameplay.
+# - Install additional apps and plugins for a tailored experience.
+# - Refer to the BlobeVM documentation for advanced features.
+
+#################################################################
+# Ready to get started?                                         #
+# Explore the power of BlobeVM today!                          #
+#################################################################
