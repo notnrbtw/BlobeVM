@@ -1,6 +1,6 @@
-# BlobeVM (Modified DesktopOnCodespaces)
+# BlobeVM
 
-BlobeVM is a Virtual Machine powered by DesktopOnCodespaces, designed to run entirely in a web browser. It comes with excellent features, including Windows app support, audio functionality, and the ability to bypass school networks.
+BlobeVM is a Virtual Machine, designed to run entirely in a web browser. It comes with excellent features, including Windows app support, audio functionality, and the ability to bypass school networks.
 
 ## Features:
 - **Runs in a web browser**
