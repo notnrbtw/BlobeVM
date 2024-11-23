@@ -1,81 +1,38 @@
-#################################################################
-# BlobeVM Installation Guide                                    #
-# Powered by DesktopOnCodespaces                                #
-#                                                               #
-# Features:                                                     #
-# - Browser-based virtual machine                               #
-# - Windows app support                                         #
-# - Audio functionality                                         #
-# - Low-latency gaming                                          #
-# - Bypasses restricted networks                                #
-# - Fast, up-to-date environment                                #
-#################################################################
+BlobeVM Installation Guide
 
-# ----------------------------- #
-# STEP 1: ACCOUNT SETUP         #
-# ----------------------------- #
+STEP 1: ACCOUNT SETUP
+Choose your preferred platform and create an account.
 
-# OPTION A: GitHub Account
-# If you don’t have a GitHub account, create one:
-# 1. Visit https://github.com/join
-# 2. Fill in your email, username, and password.
-# 3. Complete the sign-up process and verify your email.
+GitHub:
+Sign up at https://github.com/join if you don't already have an account.
 
-# OPTION B: Gitpod Account (Recommended)
-# 1. Visit https://gitpod.io/login
-# 2. Log in using your GitHub account or create a new account.
-# 3. To link your LinkedIn profile:
-#    - Go to Settings > Integrations > LinkedIn.
-#    - Authorize Gitpod to connect to your LinkedIn account.
+Gitpod (Recommended for Performance):
+Go to https://gitpod.io/login, log in using GitHub, or create a new account.
+Link LinkedIn for workspace integration by going to Settings > Integrations > LinkedIn.
 
-# ----------------------------- #
-# STEP 2: CREATE WORKSPACE      #
-# ----------------------------- #
+Recommendation: Use Gitpod Large for optimal performance or GitHub Codespaces 4-core for a robust environment.
 
-# OPTION A: Gitpod Workspace
-# 1. Log into Gitpod.
-# 2. Create a new workspace using the BlobeVM repository URL:
-#    https://github.com/coder0-code/BlobeVM
-# 3. Click "Create Workspace" and wait for it to initialize.
+STEP 2: CREATE A WORKSPACE
 
-# OPTION B: GitHub Codespaces
-# 1. Log into https://github.com/codespaces/
-# 2. Select the BlobeVM repository or choose a blank template.
-# 3. Click "Create New Codespace" and wait for it to load.
+Gitpod:
+Log into Gitpod and create a workspace using the repository: https://github.com/coder0-code/BlobeVM.
+Choose the "Large" plan for better speed and capacity.
 
-# ----------------------------- #
-# STEP 3: INSTALL BLOBEVM       #
-# ----------------------------- #
+GitHub Codespaces:
+Visit https://github.com/codespaces/, select the BlobeVM repository, and create a codespace. When creating the codespace, ensure you select 4-core for performance.
 
-# Open the terminal in your workspace or codespace and execute:
+STEP 3: INSTALL BLOBEVM
 
-# Download the BlobeVM installation script
-curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
+Open the terminal in your workspace or codespace and run:
+curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh && chmod +x install.sh && ./install.sh
 
-# Make the installation script executable
-chmod +x install.sh
+STEP 4: FINALIZE SETUP
 
-# Run the installation script
-./install.sh
+Follow the prompts in the installation script to complete the setup. Once installed, access BlobeVM directly in your browser.
 
-# ----------------------------- #
-# STEP 4: FINALIZE SETUP        #
-# ----------------------------- #
+RECOMMENDED CONFIGURATIONS:
 
-# 1. Follow the on-screen prompts to complete the installation.
-# 2. Once finished, BlobeVM will be ready to use directly in your browser.
-# 3. Enjoy Windows app support, audio, gaming, and unrestricted access!
+For gaming: Use low-latency settings in BlobeVM's system preferences.
+For multitasking: Large memory plans (Gitpod Large or Codespaces 4-core) ensure smoother Windows app and audio support.
 
-# ----------------------------- #
-# OPTIONAL CONFIGURATION        #
-# ----------------------------- #
-
-# Customize your BlobeVM for gaming or productivity:
-# - Enable low-latency settings for smoother gameplay.
-# - Install additional apps and plugins for a tailored experience.
-# - Refer to the BlobeVM documentation for advanced features.
-
-#################################################################
-# Ready to get started?                                         #
-# Explore the power of BlobeVM today!                          #
-#################################################################
+Enjoy a seamless virtual machine experience with BlobeVM!
