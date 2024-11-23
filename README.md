@@ -22,13 +22,15 @@ If you don't already have a GitHub account, you'll need to create one. Here's ho
 1. Go to [GitHub's sign-up page].
 2. Enter your details (email, username, and password) and click **"Sign up for GitHub"**.
 3. Follow the prompts to complete the account creation process.
-4. Once your account is set up, return to this page to continue the installation.
+4. Set max time on GitHub to 240 mins
+5. Once your account is set up, return to this page to continue the installation.
 
 ### Step 2: Create a New Codespace
 
 1. Visit [GitHub Codespaces].
 2. Log in with your newly created GitHub account (if you haven’t already).
 3. Click on **"Create New Codespace"** and select the 4 core machine type.
+4. Disable Automatic Deletion
 
 ### GitPod Step 1: Create a Gitpod Account (Recommended)
 
@@ -42,19 +44,21 @@ It is recommended to create a Gitpod account for a better development experience
 1. Log in to your Gitpod account.
 2. Click on **"Create New Workspace"** and select the large machine type.
 
-### GitPod Step 3: Link Gitpod with LinkedIn (Required)
+### GitPod Step 3: Link Gitpod with LinkedIn && Set Stop Time (Required)
 
 To enhance your Gitpod experience, link your Gitpod account with LinkedIn:
 
 1. Go to your Gitpod settings.
 2. Find the option to link your LinkedIn account.
 3. Follow the prompts to complete the linking process.
+4. Find the options to set the time on GitPod
+5. Set it to 24h
 
-### Step 6: Set Up BlobeVM
+### Step 3 on GitHub or Step 4 on GitPod: Set Up BlobeVM
 
-Once your codespace and Gitpod workspace are ready, follow these instructions in your codespace terminal:
+Once your codespace or Gitpod workspace are ready, follow these instructions in your codespace terminal:
 
-1. Open the terminal in your GitHub Codespace.
+1. Open the terminal in your GitHub Codespace or GitPod Workspace.
 2. Run the following commands:
 
    ```bash
