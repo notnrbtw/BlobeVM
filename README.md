@@ -1,38 +1,45 @@
-BlobeVM Installation Guide
+# BlobeVM (Modified DesktopOnCodespaces)
 
-STEP 1: ACCOUNT SETUP
-Choose your preferred platform and create an account.
+BlobeVM is a Virtual Machine powered by DesktopOnCodespaces, designed to run entirely in a web browser. It comes with excellent features, including Windows app support, audio functionality, and the ability to bypass school networks.
 
-GitHub:
-Sign up at https://github.com/join if you don't already have an account.
+## Features:
+- **Runs in a web browser**
+- **Unblocked access to resources**
+- **Windows app support**
+- **Audio support**
+- **Low-latency game support**
+- **Bypasses school networks**
+- **Fast and up-to-date**
 
-Gitpod (Recommended for Performance):
-Go to https://gitpod.io/login, log in using GitHub, or create a new account.
-Link LinkedIn for workspace integration by going to Settings > Integrations > LinkedIn.
+## Installation Instructions
 
-Recommendation: Use Gitpod Large for optimal performance or GitHub Codespaces 4-core for a robust environment.
+Follow these simple steps to install and set up BlobeVM in a GitHub Codespace:
 
-STEP 2: CREATE A WORKSPACE
+### Step 1: Create a GitHub Account (If You Don't Have One)
 
-Gitpod:
-Log into Gitpod and create a workspace using the repository: https://github.com/coder0-code/BlobeVM.
-Choose the "Large" plan for better speed and capacity.
+If you don't already have a GitHub account, you'll need to create one. Here's how:
 
-GitHub Codespaces:
-Visit https://github.com/codespaces/, select the BlobeVM repository, and create a codespace. When creating the codespace, ensure you select 4-core for performance.
+1. Go to [GitHub's sign-up page](https://github.com/join).
+2. Enter your details (email, username, and password) and click **"Sign up for GitHub"**.
+3. Follow the prompts to complete the account creation process.
+4. Once your account is set up, return to this page to continue the installation.
 
-STEP 3: INSTALL BLOBEVM
+### Step 2: Create a New Codespace
 
-Open the terminal in your workspace or codespace and run:
-curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh && chmod +x install.sh && ./install.sh
+1. Visit [GitHub Codespaces](https://github.com/codespaces/).
+2. Log in with your newly created GitHub account (if you haven’t already).
+3. Click on **"Create New Codespace"** and select the 4 core machine type.
 
-STEP 4: FINALIZE SETUP
 
-Follow the prompts in the installation script to complete the setup. Once installed, access BlobeVM directly in your browser.
 
-RECOMMENDED CONFIGURATIONS:
+### Step 3: Set Up BlobeVM
 
-For gaming: Use low-latency settings in BlobeVM's system preferences.
-For multitasking: Large memory plans (Gitpod Large or Codespaces 4-core) ensure smoother Windows app and audio support.
+Once your codespace is ready, follow these instructions in your codespace terminal:
 
-Enjoy a seamless virtual machine experience with BlobeVM!
+1. Open the terminal in your GitHub Codespace.
+2. Run the following commands:
+
+   ```bash
+   curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
+   chmod +x install.sh
+   ./install.sh
