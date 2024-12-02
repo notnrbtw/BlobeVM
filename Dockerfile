@@ -28,14 +28,7 @@ RUN \
   /installapps.sh && \
   rm /installapps.sh
 
-RUN \
-  echo "**** cleanup ****" && \
-  apt-get autoclean && \
-  rm -rf \
-    /config/.cache \
-    /var/lib/apt/lists/* \
-    /var/tmp/* \
-    /tmp/*
+
   
 # ports and volumes
 EXPOSE 3000
