@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=KDE Plasma 6 Upgrade
+Comment=Upgrade to KDE Plasma 6
+Exec=sh -c 'konsole -e sudo chmod +x install-kde6.sh && sudo /install-kde6.sh || xmessage \"Failed to upgrade to KDE Plasma 6.\" "'
+Terminal=false
+Type=Application
+Icon=system-software-update
+Categories=Utility;System;
