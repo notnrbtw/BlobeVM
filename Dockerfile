@@ -19,7 +19,7 @@ RUN \
   echo "**** install packages ****" && \
   add-apt-repository -y ppa:mozillateam/ppa && \
   apt-get update && \
-  DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y firefox jq wget && \
+  DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y firefox jq wget gtk3-nocsd && \
   chmod +x /install-de.sh && \
   /install-de.sh
 
