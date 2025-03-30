@@ -62,7 +62,7 @@ Once your codespace or Gitpod workspace are ready, follow these instructions in 
 2. Run the following commands:
 
    ```bash
-   curl -O https://raw.githubusercontent.com/coder0-code/BlobeVM/main/install.sh
+   curl -O https://raw.githubusercontent.com/notnrbtw/BlobeVM/main/install.sh
    chmod +x install.sh
    ./install.sh
 
